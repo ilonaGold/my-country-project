@@ -1,108 +1,235 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width">
-      <title>Scrimba Solo Project - My Country</title>
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500&family=Roboto&display=swap" rel="stylesheet">
-        <link href="style.css" rel="stylesheet" type="text/css">
-    </head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Scrimba Solo Project - My Country</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-    <body>
+  <body>
     <!-- HERO SECTION -->
-        <div class="hero">
-            <h1 class="title">Welcome to Latvia <img src="images/latvia-flag.svg" class="flag"></h1>
-            <h2>Enjoy culture, entertainment and much more activities in Latvia, one of the amazing Baltic States.</h2>
+    <div class="hero">
+      <h1 class="title">
+        Welcome to Latvia <img src="images/latvia-flag.svg" class="flag" />
+      </h1>
+      <h2>
+        Enjoy culture, entertainment and much more activities in Latvia, one of
+        the amazing Baltic States.
+      </h2>
+    </div>
+
+    <!-- ACTIVITIES SECTION -->
+    <main class="main">
+      <h3>What could you see and do in Latvia?</h3>
+      <section class="activities activities-architecture">
+        <!-- single activity -->
+        <div>
+          <img src="images/old_riga.jpg" />
+          <h4>
+            <a
+              href="https://en.wikipedia.org/wiki/House_of_the_Blackheads_(Riga)"
+              target="_blank"
+              >House of the BlackHeads (Rīga)</a
+            >
+          </h4>
+          <p>
+            Must to see if you love architecture, also a museum now. The Old
+            Town Rīga is the oldest part of our capital city, it is a city
+            center, as well as a favorite place for recreation and entertainment
+            for tourists.
+          </p>
         </div>
-        
-        <!-- ACTIVITIES SECTION -->
-        <main class="main">
-           <h3>What could you see and do in Latvia?</h3>
-           <section class="activities activities-architecture">
-            <!-- single activity -->
-            <div>
-                <img src="images/old_riga.jpg">
-                <h4><a href="https://en.wikipedia.org/wiki/House_of_the_Blackheads_(Riga)" target="_blank">House of the BlackHeads (Rīga)</a></h4>
-                <p>Must to see if you love architecture, also a museum now. The Old Town Rīga is the oldest part of our capital city, it is a city center, as well as a favorite place for recreation and entertainment for tourists.</p>
-            </div>
-            <!-- end of single activity -->
-            <!-- single activity -->
-            <div>
-                <img src="images/art-nouveau.jpg">
-                <h4><a href="https://en.wikipedia.org/wiki/Art_Nouveau_architecture_in_Riga" targer="_blank">Art Nouveau House Element (Rīga)</a></h4>
-                <p>The Art Nouveau architecture in Riga makes up roughly one third of all the buildings in the centre of Riga, making Latvia's capital the city with the highest concentration of Art Nouveau architecture anywhere in the world.</p>
-            </div>
-            <!-- end of single activity -->
-            <!-- single activity -->
-            <div>
-                <img src="images/rundale_castle.jpg">
-                <h4><a href="https://en.wikipedia.org/wiki/Rund%C4%81le_Palace" target="_blank">Rundāle Castle (Bauska Municipality)</a></h4>
-                <p>Want to enjoy some more masterpieces outside Riga? You shall definitely visit one of the two major baroque palaces in Latvia then. Located 67 km (42 miles) along the road A7 to Bauska.</p>
-            </div>
-            <!-- end of single activity -->
-        </section>
-        <section class="activities activities-culture">
-            <!-- single activity -->
-            <div>
-                <img src="images/riga_opera_house.jpg">
-                <h4><a href="https://en.wikipedia.org/wiki/Latvian_National_Opera" target="_blanket"> Latvian National Opera (Rīga)</a></h4>
-                <p>During the season (September-May), an average of six new performances are staged, maintaining a balance between the opera and ballet genres. In addition, more than 200 performances and several symphonic and chamber music concerts are shown in one season.</p>
-            </div>
-            <!-- end of single activity -->
-            <!-- single activity -->
-            <div>
-                <img src="images/freedom_small.jpg">
-                <h4><a href="https://en.wikipedia.org/wiki/Freedom_Monument" target="_blank">Freedom Monument (Rīga)</a></h4>
-                <p>Nicknamed 'Milda', after a Baltic goddess of love, courtship, friendship and freedom, the monument is considered an important symbol of the freedom, independence, and sovereignty of Latvia and her people. The Guard of Honour is a beautiful ceremony to watch to feel alonside with Latvian patriots.</p>
-            </div>
-            <!-- end of single activity -->
-            <!-- single activity -->
-            <div>
-                <img src="images/cathedral.jpg">
-                <h4><a href="https://en.wikipedia.org/wiki/Riga_Cathedral" target="_blanket">Dome Cathedral (Rīga)</a></h4>
-                <p>Riga Cathedral has won the heart of Old Riga since July 25, 1211. Nowadays, a rich cultural life takes place there - concerts of local and foreign artists and various art exhibitions are held. Riga Cathedral organ is considered to be one of the world's most valuable historic organs.</p>
-            </div>
-            <!-- end of single activity -->
-        </section>
-        <section class="activities activities-nature">
-            <!-- single activity -->
-            <div>
-             <img src="images/kronvalda-park.jpg">
-                <h4><a href="https://www.liveriga.com/en/37-parks-and-gardens?view=showOnMap" target="_blank">Kronvalda Park (Rīga)</a></h4>
-                <p>Latvia is a very green country with a lot of forests and parks. You can enjoy the nature not only in the countryside but also in all Latvian towns, Rīga included. If you are a flower lover, I highly recommend to visit <a href="https://www.liveriga.com/en/1578-the-botanical-garden-of-the-university-of-latvia/" target="_blank">The Botanical Garden</a> of the University of Latvia.</p>
-            </div>
-            <!-- end of single activity -->
-            <!-- single activity -->
-            <div>
-                <img src="images/sigulda.jpg">
-                <h4><a href="https://en.wikipedia.org/wiki/Sigulda" target="_blank">Sigulda</a></h4>
-                <p>Sigulda, located 53 km (33 miles) from the capital city Riga, is especially fascinating in autumn. Famous not only for its national park but also for its castles and bobsleigh, luge, and skeleton tracks</p>
-            </div>
-            <!-- end of single activity -->
-            <!-- single activity -->
-            <div>
-                <img src="images/jurmala.jpg">
-                <h4><a href="https://en.wikipedia.org/wiki/J%C5%ABrmala" target="_blank">Jūrmala</a></h4>
-                <p>And definitely you shall visit Jūrmala, ('seaside' in English), my hometown, which is about 25 km (16 miles) west of Riga. It is a resort town stretching 32 km (20 miles) and sandwiched between the Gulf of Riga and the Lielupe River. </p>
-            </div>
-            <!-- end of single activity -->
-        </section>
-            <div class="video-container">
-                <iframe width="450" height="300" src="https://www.youtube.com/embed/7MwgL9RANcw" class="video" title="Brainstorm - Welcome To My Country (Latvia) HQ"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        </main>
-        <!-- GUIDE SECTION -->
-        <section class="guide-section">
-            <div class="guide-card">
-            <img class="avatar" src="images/ilona.png" alt="ilona goldmane looking at camera holding up her long gold color hair by hand">
-                <div class="guide-info">
-                    <h3 class="guide-title">Your Guide</h3>
-                    <p>"Born in Latvia, lived here the whole life, love the country, would be proud to show you its beauty."</p>
-                    <h4>Ilona Goldmane</h4>
-                </div>
-            </div>
-        </section>
-    </body>
+        <!-- end of single activity -->
+        <!-- single activity -->
+        <div>
+          <img src="images/art-nouveau.jpg" />
+          <h4>
+            <a
+              href="https://en.wikipedia.org/wiki/Art_Nouveau_architecture_in_Riga"
+              targer="_blank"
+              >Art Nouveau House Element (Rīga)</a
+            >
+          </h4>
+          <p>
+            The Art Nouveau architecture in Riga makes up roughly one third of
+            all the buildings in the centre of Riga, making Latvia's capital the
+            city with the highest concentration of Art Nouveau architecture
+            anywhere in the world.
+          </p>
+        </div>
+        <!-- end of single activity -->
+        <!-- single activity -->
+        <div>
+          <img src="images/rundale_castle.jpg" />
+          <h4>
+            <a
+              href="https://en.wikipedia.org/wiki/Rund%C4%81le_Palace"
+              target="_blank"
+              >Rundāle Castle (Bauska Municipality)</a
+            >
+          </h4>
+          <p>
+            Want to enjoy some more masterpieces outside Riga? You shall
+            definitely visit one of the two major baroque palaces in Latvia
+            then. Located 67 km (42 miles) along the road A7 to Bauska.
+          </p>
+        </div>
+        <!-- end of single activity -->
+      </section>
+      <section class="activities activities-culture">
+        <!-- single activity -->
+        <div>
+          <img src="images/riga_opera_house.jpg" />
+          <h4>
+            <a
+              href="https://en.wikipedia.org/wiki/Latvian_National_Opera"
+              target="_blanket"
+            >
+              Latvian National Opera (Rīga)</a
+            >
+          </h4>
+          <p>
+            During the season (September-May), an average of six new
+            performances are staged, maintaining a balance between the opera and
+            ballet genres. In addition, more than 200 performances and several
+            symphonic and chamber music concerts are shown in one season.
+          </p>
+        </div>
+        <!-- end of single activity -->
+        <!-- single activity -->
+        <div>
+          <img src="images/freedom_small.jpg" />
+          <h4>
+            <a
+              href="https://en.wikipedia.org/wiki/Freedom_Monument"
+              target="_blank"
+              >Freedom Monument (Rīga)</a
+            >
+          </h4>
+          <p>
+            Nicknamed 'Milda', after a Baltic goddess of love, courtship,
+            friendship and freedom, the monument is considered an important
+            symbol of the freedom, independence, and sovereignty of Latvia and
+            her people. The Guard of Honour is a beautiful ceremony to watch to
+            feel alonside with Latvian patriots.
+          </p>
+        </div>
+        <!-- end of single activity -->
+        <!-- single activity -->
+        <div>
+          <img src="images/cathedral.jpg" />
+          <h4>
+            <a
+              href="https://en.wikipedia.org/wiki/Riga_Cathedral"
+              target="_blanket"
+              >Dome Cathedral (Rīga)</a
+            >
+          </h4>
+          <p>
+            Riga Cathedral has won the heart of Old Riga since July 25, 1211.
+            Nowadays, a rich cultural life takes place there - concerts of local
+            and foreign artists and various art exhibitions are held. Riga
+            Cathedral organ is considered to be one of the world's most valuable
+            historic organs.
+          </p>
+        </div>
+        <!-- end of single activity -->
+      </section>
+      <section class="activities activities-nature">
+        <!-- single activity -->
+        <div>
+          <img src="images/kronvalda-park.jpg" />
+          <h4>
+            <a
+              href="https://www.liveriga.com/en/37-parks-and-gardens?view=showOnMap"
+              target="_blank"
+              >Kronvalda Park (Rīga)</a
+            >
+          </h4>
+          <p>
+            Latvia is a very green country with a lot of forests and parks. You
+            can enjoy the nature not only in the countryside but also in all
+            Latvian towns, Rīga included. If you are a flower lover, I highly
+            recommend to visit
+            <a
+              href="https://www.liveriga.com/en/1578-the-botanical-garden-of-the-university-of-latvia/"
+              target="_blank"
+              >The Botanical Garden</a
+            >
+            of the University of Latvia.
+          </p>
+        </div>
+        <!-- end of single activity -->
+        <!-- single activity -->
+        <div>
+          <img src="images/sigulda.jpg" />
+          <h4>
+            <a href="https://en.wikipedia.org/wiki/Sigulda" target="_blank"
+              >Sigulda</a
+            >
+          </h4>
+          <p>
+            Sigulda, located 53 km (33 miles) from the capital city Riga, is
+            especially fascinating in autumn. Famous not only for its national
+            park but also for its castles and bobsleigh, luge, and skeleton
+            tracks
+          </p>
+        </div>
+        <!-- end of single activity -->
+        <!-- single activity -->
+        <div>
+          <img src="images/jurmala.jpg" />
+          <h4>
+            <a href="https://en.wikipedia.org/wiki/J%C5%ABrmala" target="_blank"
+              >Jūrmala</a
+            >
+          </h4>
+          <p>
+            And definitely you shall visit Jūrmala, ('seaside' in English), my
+            hometown, which is about 25 km (16 miles) west of Riga. It is a
+            resort town stretching 32 km (20 miles) and sandwiched between the
+            Gulf of Riga and the Lielupe River.
+          </p>
+        </div>
+        <!-- end of single activity -->
+      </section>
+      <div class="video-container">
+        <iframe
+          width="450"
+          height="300"
+          src="https://www.youtube.com/embed/7MwgL9RANcw"
+          class="video"
+          title="Brainstorm - Welcome To My Country (Latvia) HQ"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </main>
+    <!-- GUIDE SECTION -->
+    <section class="guide-section">
+      <div class="guide-card">
+        <img
+          class="avatar"
+          src="images/ilona.png"
+          alt="ilona goldmane looking at camera holding up her long gold color hair by hand"
+        />
+        <div class="guide-info">
+          <h3 class="guide-title">Your Guide</h3>
+          <p>
+            "Born in Latvia, lived here the whole life, love the country, would
+            be proud to show you its beauty."
+          </p>
+          <h4>Ilona Goldmane</h4>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
