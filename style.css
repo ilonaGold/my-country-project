@@ -1,102 +1,68 @@
-@font-face {
-    src: url("CursedTimerULiL.ttf");
-    font-family: Cursed Timer ULiL;
-}
-
 :root {
-    --darkblue: #1B244A;
-    --white: #EEEEEE;
-    --black: #080001;
-    --red: #F94F6D;
-    --green: #009A17;
-    --light: #9AABD8;
+    --darkred: #77353D; 
+    --lightblue: #87cefa;   
+    --white: #ffffff;
+    --black: #1D3557;
+    --radius-circle: 50%;
+    --radius-square: 0.5rem;
+    --border-thin: 0.25rem;
+    --border-thick: 0.5rem;
+    --opacity: 0.88;
 }
 
 body {
-    margin: 0; 
-    font-family: 'Cursed Timer ULiL', sans-serif;
-    background: var(--darkblue);
-}
-
-.container {
-    display: flex;
-    justify-content: space-around;
-    align-self: center;
-    min-height: 100vh;
-    max-width: 762px;
-    padding: 3rem 1rem 0;
-    position: relative;
-}
-
-.team-name {
-    font-size: 2.5rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: var(--white);
+    margin: 0;
     text-align: center;
-    margin-top: 7rem;
+    font-family: 'Roboto', sans-serif;
+    color: var(--black);
+    background-color: var(--darkred);
+    overflow-x: hidden;
 }
 
-.main-info {
-    display: flex;
-    flex-direction: column;
-    margin-top: 4rem;
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: var(--radius-circle);
+    border: var(--border-thin) solid var(--lightblue);
 }
 
-.score {
-    font-size: 5.2rem;
-    background: var(--black);
-    color: var(--red);
-    min-width: 9.6875rem;
-    height: 7.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 1rem;
-    margin-top: 1rem;
+.hero,
+.activities,
+.guide,
+h1,
+h2 {
+    opacity: var(--opacity);
 }
 
-.btns-container {
-    display: flex;
-    width: 9.6875rem;
-    justify-content: space-between;
-}
+/* TYPOGRAPHY */
 
-.btn {
-    font-family: 'Cursed Timer ULiL', sans-serif;
-    font-size: 1.125rem;
-    border: 2px solid var(--light);
-    border-radius: 5px;
-    width: 2.81rem;
-    height: 2.81rem;
-    background: var(--darkblue);
-    color: var(--light);
-    box-sizing: border-box;
-    transition: all 0.3s ease-in;
-}
-
-.btn:hover {
+h1,
+h2 {
     color: var(--white);
-    border-color: var(--white);
-    cursor: pointer;
+    margin-top: 0;
+    border-radius: var(--radius-square);
+    padding: 0.65rem 1.3rem;
 }
 
-.new-game-btn {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-transform: uppercase;
-    font-size: 1.35rem;
-    width: 10rem;
-    height: 3.75rem;
-    border-width: 3px;
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
- }
-
-.new-game-btn:hover { 
-    background: var(--green);
-    border: 3px solid var(--green); 
-    color: var(--white);
+h1 {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 2.5rem;
 }
+
+h2 {
+    background-color: var(--darkred);
+}
+
+h3 {
+    font-size: 2.1rem;
+}
+
+a {
+    color: var(--darkred);
+}
+
+a:hover {
+    text-shadow: 0 0 1px var(--darkred);
+}
+
