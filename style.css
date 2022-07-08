@@ -93,3 +93,37 @@ a:hover {
     height: 50px;
     margin-left: 0.5rem;
 }
+
+/* ACTIVITIES */
+
+main {
+    background-color: var(--white);
+    padding: 1rem 5rem 3rem;
+}
+
+.activities {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--white);
+}
+
+.activities div {
+    margin: 1.5rem;
+}
+
+.activities p {
+    max-width: 15rem;
+}
+
+.video-container {
+    width: 450px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    background-color: var(--white);
+    border-top-left-radius: var(--radius-square);
+    border-top-right-radius: var(--radius-square);
+    border-top: var(--border-thick) solid var(--darkred);
+    border-right: var(--border-thick) solid var(--darkred);
+}
