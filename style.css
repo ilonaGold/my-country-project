@@ -177,9 +177,6 @@ main {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 672px) {
-    h3 {
-      font-size: 
-    }
     main,
       .guide-section {
           margin: auto;
