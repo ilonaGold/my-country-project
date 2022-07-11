@@ -173,3 +173,38 @@ main {
 .guide-info {
     margin-left: 1.25rem; 
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 672px) {
+    h3 {
+      font-size: 
+    }
+    main,
+      .guide-section {
+          margin: auto;
+          padding: 1rem;
+      }  
+          .video-container,
+      .video {
+          max-width: 90vw;
+      }
+      .activities {
+          flex-direction: column;
+          align-items: center;
+      }
+      .activities p {
+          max-width: 24rem;
+      }
+      .guide-card {
+          height: auto;
+      }
+  }
+  
+  @media screen and (max-width: 375px) {
+      .guide-card {
+          flex-direction: column;
+          padding-top: 2.25rem;
+      }
+  }
+  
