@@ -127,3 +127,49 @@ main {
     border-top: var(--border-thick) solid var(--darkred);
     border-right: var(--border-thick) solid var(--darkred);
 }
+
+/* GUIDE SECTION */
+
+.guide-section {
+    background: url("images/nature_footer-image.jpg") center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    padding-top: 0;
+}
+
+.guide-card {
+    width: 25rem;
+    height: 18rem;
+    padding: 0.5rem 1.75rem;
+    border-bottom-left-radius: var(--radius-square);
+    border-bottom-right-radius: var(--radius-square);
+    border-bottom: var(--border-thick) solid var(--darkred);
+    border-left: var(--border-thick) solid var(--darkred);
+    background: var(--lightblue);
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s ease-in;
+}
+
+.guide-card:hover {
+    background-color: var(--darkred);
+    color: var(--white);
+    border-bottom: var(--border-thick) solid var(--white);
+    border-left: var(--border-thick) solid var(--white);
+}
+
+.avatar {
+    border: var(--border-thin) solid var(--white);
+}
+
+.guide-title {
+    font-size: 1.25rem;
+}
+
+.guide-info {
+    margin-left: 1.25rem; 
+}
